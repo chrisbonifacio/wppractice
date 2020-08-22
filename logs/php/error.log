@@ -1,0 +1,12 @@
+[19-Aug-2020 18:32:54 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/cbonifacio/Local Sites/wppractice/app/public/wp-content/themes/1.04-phpforwp-starter/index.php on line 42
+[20-Aug-2020 03:03:48 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/cbonifacio/Local Sites/wppractice/app/public/wp-includes/update.php on line 403
+[20-Aug-2020 03:03:48 UTC] PHP Stack trace:
+[20-Aug-2020 03:03:48 UTC] PHP   1. {main}() /Users/cbonifacio/Local Sites/wppractice/app/public/wp-admin/update.php:0
+[20-Aug-2020 03:03:48 UTC] PHP   2. Theme_Upgrader->install() /Users/cbonifacio/Local Sites/wppractice/app/public/wp-admin/update.php:314
+[20-Aug-2020 03:03:48 UTC] PHP   3. Theme_Upgrader->run() /Users/cbonifacio/Local Sites/wppractice/app/public/wp-admin/includes/class-theme-upgrader.php:250
+[20-Aug-2020 03:03:48 UTC] PHP   4. do_action() /Users/cbonifacio/Local Sites/wppractice/app/public/wp-admin/includes/class-wp-upgrader.php:847
+[20-Aug-2020 03:03:48 UTC] PHP   5. WP_Hook->do_action() /Users/cbonifacio/Local Sites/wppractice/app/public/wp-includes/plugin.php:478
+[20-Aug-2020 03:03:48 UTC] PHP   6. WP_Hook->apply_filters() /Users/cbonifacio/Local Sites/wppractice/app/public/wp-includes/class-wp-hook.php:311
+[20-Aug-2020 03:03:48 UTC] PHP   7. wp_update_plugins() /Users/cbonifacio/Local Sites/wppractice/app/public/wp-includes/class-wp-hook.php:285
+[20-Aug-2020 03:03:48 UTC] PHP   8. trigger_error() /Users/cbonifacio/Local Sites/wppractice/app/public/wp-includes/update.php:403
+[20-Aug-2020 03:17:13 UTC] PHP Parse error:  syntax error, unexpected '2020' (T_LNUMBER), expecting ',' or ';' in /Users/cbonifacio/Local Sites/wppractice/app/public/wp-content/themes/1.10-phpforwp-starter/footer.php on line 2
